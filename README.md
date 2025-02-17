@@ -29,14 +29,14 @@ Vehicle label files, input conditions processed as 2048x3 in .npy format.
 d) model_pointcloud_npy folder:
 Vehicle point cloud data, sampled at 2048x3 in .npy format.
 ### 4. Scripts:
-a) Training Script:
-Run the following command to train the model:
 
 a) Training Script:
+Run the following command to train the model:
 ```bash
 python run train_improved_cgan.py
 ```
 b) Conditional Generation Script:
+Run the following command for conditional generation:
 ```bash
 python run test_improved_cgan.py
 ```
